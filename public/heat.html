@@ -24,7 +24,7 @@ var svg = d3.select("#my_dataviz")
         "translate(" + margin.left + "," + margin.top + ")");
 
 
-d3.json("output.json", function(error, data) { // MOSSI-POLO
+d3.json("output/output.json", function(error, data) {
     var fileNames = new Set();
     data.forEach(function(d) {
         console.log(d.file1.file_name);
@@ -75,7 +75,7 @@ var myColor = d3.scaleLinear()
       .attr("height", y.bandwidth() )
       .style("fill", function(d) { return myColor(d.file1.similarity_percent)} );
 
-  d3.json("output_plagiarised.json", function(error, ds) { // MOSS
+  d3.json("output/output_plagiarised.json", function(error, ds) {
       svg.selectAll()
       .data(ds, function(d) {
           if(d.file1.file_name.localeCompare(d.file2.file_name) === 1) {
