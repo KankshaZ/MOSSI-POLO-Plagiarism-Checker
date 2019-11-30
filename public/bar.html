@@ -19,8 +19,13 @@ body {
 
 </style>
 <body>
-<script src="https://d3js.org/d3.v3.min.js"></script>
+<!--<script src="https://d3js.org/d3.v3.min.js"></script>-->
+<!--    <script src="https://d3js.org/d3.v4.js"></script>-->
+
 <script>
+import('https://d3js.org/d3.v3.min.js')
+  .then((d3) => {
+
 
 var margin = {top: 20, right: 20, bottom: 30, left: 40},
     width = 960 - margin.left - margin.right,
@@ -131,6 +136,6 @@ d3.json("output_processed.json", function(error, data) {
 
   legend.transition().duration(500).delay(function(d,i){ return 1300 + 100 * i; }).style("opacity","1");
 
-});
+});});
 
 </script>

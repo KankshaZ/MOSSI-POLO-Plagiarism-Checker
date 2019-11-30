@@ -21,7 +21,7 @@ for obj in output_moss:
     moss_lookup[(obj["file1"]["file_name"], obj["file2"]["file_name"])] = obj["file1"]
     moss_lookup[(obj["file2"]["file_name"], obj["file1"]["file_name"])] = obj["file2"]
 
-master_copy = "master.java"
+master_copy = "assignment_11.java"
 output_data = []
 for f in files:
     if f == master_copy:
