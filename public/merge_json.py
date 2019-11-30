@@ -1,9 +1,9 @@
 import json
 
-with open("output.json") as f:
+with open("output/output.json") as f:
     output_polo = json.load(f)
 
-with open("output_plagiarised.json") as f:
+with open("output/output_plagiarised.json") as f:
     output_moss = json.load(f)
 
 files = set()
