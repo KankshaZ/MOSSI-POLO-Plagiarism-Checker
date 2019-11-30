@@ -19,12 +19,9 @@ import com.github.javaparser.ast.visitor.Visitable;
 public class PreProcessing {
     public static void main(String[] args) throws Exception {
 
-        String fileLocation = "files/TestFile.java";
-        String  newFileLocation =  fileLocation.replace("files", "testedFiles");
+        String fileLocation = args[0];
+        String newFileLocation = args[1];
         File newFile = new File(newFileLocation);
-        File directory = new File(String.valueOf("testedFiles"));
-        if(!directory.exists())
-            directory.mkdir();
         if(!(newFile.exists()))
         {
             try{
