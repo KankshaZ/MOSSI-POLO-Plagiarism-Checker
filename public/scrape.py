@@ -68,7 +68,7 @@ def get_moss_output(request_code="956166494"):
     # return all_files
     # pprint(all_files[0])
 
-    with open('output/output_plagiarised.json', 'w') as out_file:
+    with open('output/' + request_code + '.json', 'w') as out_file:
         json.dump(all_files, out_file)
 
     print("--Program run time: %s seconds" % round((time.time() - start_time)))
