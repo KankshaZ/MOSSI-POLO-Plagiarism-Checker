@@ -2,23 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="93a82fc7-0fe4-4353-b7df-5187d2b8e538" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/MOSSI-POLO-Plagiarism-Checker.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/environment.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/heat.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/output/output_plagiarised.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/scrape.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrape/heatmap/heat.html" beforeDir="false" afterPath="$PROJECT_DIR$/scrape/heatmap/heat.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrape/heatmap/output.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/output/output.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrape/output/heatmap/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrape/output/heatmap/output.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrape/output/heatmap/server.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrape/output/heatmap/test.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/heat.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scrape/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scrape/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scrape/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scrape/.idea/scrape.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scrape/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scrape/environment.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scrape/heatmap/heat.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scrape/heatmap/heat.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scrape/heatmap/heatmap.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scrape/heatmap/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scrape/heatmap/output.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scrape/heatmap/output_plagiarised.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scrape/heatmap/server.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scrape/heatmap/test.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scrape/moss.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scrape/output/output_plagiarised.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scrape/scrape.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -67,7 +68,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575073207981</updated>
-      <workItem from="1575073218409" duration="1318000" />
+      <workItem from="1575073218409" duration="1579000" />
     </task>
     <servers />
   </component>

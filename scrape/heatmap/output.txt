@@ -1,1 +1,0 @@
-[{"lines_matched": "69", "file1": {"file_name": "test_files/file2.java", "similarity_percent": "98", "copied_lines_list": [
