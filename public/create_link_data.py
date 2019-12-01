@@ -1,10 +1,10 @@
 import json
 
-with open("output/output.json") as f:
-    output_polo = json.load(f)
-
-with open("output/output_plagiarised.json") as f:
+with open("public/output/output1.json") as f:
     output_moss = json.load(f)
+
+with open("public/output/output2.json") as f:
+    output_polo = json.load(f)
 
 output_data = []
 for obj in output_polo:

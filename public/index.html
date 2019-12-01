@@ -43,7 +43,7 @@
     }
 
     function generate_heatmap(svg) {
-        d3.json("output/output.json", function (error, data) {
+        d3.json("output/output2.json", function (error, data) {
             var fileNames = new Set();
             data.forEach(function (d) {
                 fileNames.add(d.file1.file_name.substr(0, d.file1.file_name.length - 5));
@@ -116,7 +116,7 @@
                 .on("mouseout", tip.hide);
 
             // Add non mossi-polo plagiarised version
-            d3.json("output/output_plagiarised.json", function (error, ds) {
+            d3.json("output/output1.json", function (error, ds) {
                 svg.selectAll()
                     .data(ds, function (d) {
                         if (d.file1.file_name.localeCompare(d.file2.file_name) === 1) {
@@ -314,7 +314,7 @@
 
 <script>
 console.log("links1");
-d3.json("links.json", function(error, data) {
+d3.json("../links.json", function(error, data) {
 
   var links = data.map(function(d) { return d; });
   var nodes = {};

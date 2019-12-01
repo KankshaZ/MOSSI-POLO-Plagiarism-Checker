@@ -1,0 +1,14 @@
+Checking files . . . 
+OK
+Uploading out/assignment_20.java ...done.
+Uploading out/assignment_19.java ...done.
+Uploading out/assignment_18.java ...done.
+Uploading out/assignment_17.java ...done.
+Uploading out/assignment_16.java ...done.
+Uploading out/assignment_15.java ...done.
+Uploading out/assignment_14.java ...done.
+Uploading out/assignment_13.java ...done.
+Uploading out/assignment_12.java ...done.
+Uploading out/assignment_11.java ...done.
+Query submitted.  Waiting for the server's response.
+http://moss.stanford.edu/results/224322029

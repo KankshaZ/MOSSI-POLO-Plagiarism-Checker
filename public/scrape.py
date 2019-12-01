@@ -16,7 +16,7 @@ def build_file_structure(col_tag):
     file_strucure["similarity_percent"] = file_text.split("(")[1].split("%")[0]
     return file_strucure
 
-def get_moss_output(request_code="956166494"):
+def get_moss_output(fname, suffix):
     # To calculate the runtime of the program
     start_time = time.time()
     
@@ -27,8 +27,16 @@ def get_moss_output(request_code="956166494"):
     # request_code = "997036419"
     # request_code = "727330323"
     # request_code = "956166494"
-
-    url = BASE_URL + request_code
+    with open(fname, 'rb') as fh:
+        # for line in fh:
+        #     line = fh.read()
+        # url = str(line)
+        # url = line.replace('\n', '')
+        # print (list(fh)[-1])
+        url = list(fh)[-1].decode("utf-8").replace('\n', '')
+    # url = BASE_URL + request_code
+    
+    print(url)
     
     res = requests.get(url, headers=headers)  # Get the response    
     soup = BeautifulSoup(res.text, features="lxml")  # Get the html page
@@ -68,11 +76,15 @@ def get_moss_output(request_code="956166494"):
     # return all_files
     # pprint(all_files[0])
 
-    with open('output/' + request_code + '.json', 'w') as out_file:
+    with open('public/output/output' + suffix + '.json', 'w') as out_file:
         json.dump(all_files, out_file)
 
     print("--Program run time: %s seconds" % round((time.time() - start_time)))
 
 
 if __name__ == '__main__':
-    get_moss_output("482138982")
+    fname = sys.argv[1]
+    # print(fname)
+    suffix = sys.argv[2]
+    # print(suffix)
+    get_moss_output(fname, suffix)
