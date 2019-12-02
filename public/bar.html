@@ -19,36 +19,26 @@ body {
 
 </style>
 <body>
-<!--<script src="https://d3js.org/d3.v3.min.js"></script>-->
-<!--    <script src="https://d3js.org/d3.v4.js"></script>-->
+<script src="https://d3js.org/d3.v4.js"></script>
 
 <script>
-import('https://d3js.org/d3.v3.min.js')
-  .then((d3) => {
-
-
 var margin = {top: 20, right: 20, bottom: 30, left: 40},
     width = 960 - margin.left - margin.right,
     height = 500 - margin.top - margin.bottom;
 
-var x0 = d3.scale.ordinal()
-    .rangeRoundBands([0, width], .1);
+var x0 = d3.scaleBand().range([0, width]).round(.1);
 
-var x1 = d3.scale.ordinal();
+var x1 = d3.scaleBand();
 
-var y = d3.scale.linear()
+var y = d3.scaleLinear()
     .range([height, 0]);
 
-var xAxis = d3.svg.axis()
-    .scale(x0)
-    .tickSize(0)
-    .orient("bottom");
+var xAxis = d3.axisBottom(x0)
+    .tickSize(0);
 
-var yAxis = d3.svg.axis()
-    .scale(y)
-    .orient("left");
+var yAxis = d3.axisLeft(y);
 
-var color = d3.scale.ordinal()
+var color = d3.scaleOrdinal()
     .range(["#ca0020","#f4a582","#d5d5d5","#92c5de","#0571b0"]);
 
 var svg = d3.select('body').append("svg")
@@ -63,7 +53,7 @@ d3.json("output_processed.json", function(error, data) {
   var rateNames = data[0].values.map(function(d) { return d.rate; });
 
   x0.domain(categoriesNames);
-  x1.domain(rateNames).rangeRoundBands([0, x0.rangeBand()]);
+  x1.domain(rateNames).range([0, x0.bandwidth()]);
   y.domain([0, d3.max(data, function(categorie) { return d3.max(categorie.values, function(d) { return d.value; }); })]);
 
   svg.append("g")
@@ -94,7 +84,7 @@ d3.json("output_processed.json", function(error, data) {
   slice.selectAll("rect")
       .data(function(d) { return d.values; })
   .enter().append("rect")
-      .attr("width", x1.rangeBand())
+      .attr("width", x1.bandwidth())
       .attr("x", function(d) { return x1(d.rate); })
       .style("fill", function(d) { return color(d.rate) })
       .attr("y", function(d) { return y(0); })
@@ -136,6 +126,6 @@ d3.json("output_processed.json", function(error, data) {
 
   legend.transition().duration(500).delay(function(d,i){ return 1300 + 100 * i; }).style("opacity","1");
 
-});});
+});
 
 </script>
