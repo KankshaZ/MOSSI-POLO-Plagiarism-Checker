@@ -122,7 +122,7 @@ public class AddAgentActivity extends AppCompatActivity implements DatePickerDia
         setContentView(R.layout.activity_add_agent);
 
         // added useless code
-        private String unused_variable = "This is never used";
+        String unused_variable = "This is never used";
 
         System.out.print("");
 
