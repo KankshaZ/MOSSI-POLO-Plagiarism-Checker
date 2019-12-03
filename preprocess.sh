@@ -11,6 +11,12 @@ do
 	sed -i "$numbers" "temp/$filename"
 	java PreProcessing "temp/$filename" "out/$filename"
 done
+cd dataset1
+perl moss.pl assignment_11.java assignment_12.java assignment_13.java assignment_14.java assignment_15.java assignment_16.java assignment_17.java assignment_18.java assignment_19.java assignment_20.java > ../MOSS.txt
+cd ../out
+perl moss.pl assignment_11.java assignment_12.java assignment_13.java assignment_14.java assignment_15.java assignment_16.java assignment_17.java assignment_18.java assignment_19.java assignment_20.java > ../POLO.txt
+cd ..
+bash visualise.sh
 # # perl moss.pl temp/A1.java temp/A2.java temp/A3.java temp/A4.java temp/A5.java temp/A6.java temp/A7.java temp/A8.java temp/A9.java temp/Master.java > MOSS.txt
 # # perl moss.pl out/A1.java out/A2.java out/A3.java out/A4.java out/A5.java out/A6.java out/A7.java out/A8.java out/A9.java out/Master.java > POLO.txt
 # perl moss.pl out/assignment_20.java out/assignment_19.java out/assignment_18.java out/assignment_17.java out/assignment_16.java out/assignment_15.java out/assignment_14.java out/assignment_13.java out/assignment_12.java out/assignment_11.java > POLO.txt

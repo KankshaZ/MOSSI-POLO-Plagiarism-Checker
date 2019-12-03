@@ -176,7 +176,7 @@ text {
 //   }
 // ];
 console.log("links1");
-d3.json("links.json", function(error, data) {
+d3.json("../links.json", function(error, data) {
 
   var links = data.map(function(d) { return d; });
   var nodes = {};
@@ -352,5 +352,7 @@ function dblclick(d) {
 });
 
 </script>
+<a href="bar.html">next</a>
+
 </body>
 </html>
