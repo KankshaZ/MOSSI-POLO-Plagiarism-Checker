@@ -84,7 +84,7 @@ def get_moss_output(fname, suffix):
 
 if __name__ == '__main__':
     fname = sys.argv[1]
-    # print(fname)
+    print(fname)
     suffix = sys.argv[2]
-    # print(suffix)
+    print(suffix)
     get_moss_output(fname, suffix)

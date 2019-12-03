@@ -104,7 +104,37 @@ public class AddAgentActivity extends AppCompatActivity implements DatePickerDia
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_add_agent);
-
+        System.out.print("");
+        System.out.print("");
+        System.out.print("");
+        System.out.print("");
+        System.out.print("");
+        System.out.print("");
+        System.out.print("");
+        System.out.print("");
+        System.out.print("");
+        /////////////////////
+        /////////////////////
+        /////////////////////
+        /////////////////////
+        /////////////////////
+        /////////////////////
+        /////////////////////
+        System.out.print("");
+        System.out.print("");
+        System.out.print("");
+        System.out.print("");
+        System.out.print("");
+        System.out.print("");
+        System.out.print("");
+        System.out.print("");
+        System.out.print("");
+        System.out.print("");
+        System.out.print("");
+        System.out.print("");
+        System.out.print("");System.out.print("");
+        System.out.print("");
+        System.out.print("");
         //set back button
         ActionBar actionBar = getSupportActionBar();
         if (actionBar != null) {
@@ -123,7 +153,37 @@ public class AddAgentActivity extends AppCompatActivity implements DatePickerDia
         mDatePicker = findViewById(R.id.fab_date_picker_id);
         mFABAadhaarF = findViewById(R.id.fab_aadhaar_front_id);
         mFABAadhaarB = findViewById(R.id.fab_aadhaar_back_id);
-
+        System.out.print("");
+        System.out.print("");
+        System.out.print("");
+        System.out.print("");
+        System.out.print("");
+        System.out.print("");
+        System.out.print("");
+        System.out.print("");
+        System.out.print("");
+        /////////////////////
+        /////////////////////
+        /////////////////////
+        /////////////////////
+        /////////////////////
+        /////////////////////
+        /////////////////////
+        System.out.print("");
+        System.out.print("");
+        System.out.print("");
+        System.out.print("");
+        System.out.print("");
+        System.out.print("");
+        System.out.print("");
+        System.out.print("");
+        System.out.print("");
+        System.out.print("");
+        System.out.print("");
+        System.out.print("");
+        System.out.print("");System.out.print("");
+        System.out.print("");
+        System.out.print("");
         mName = findViewById(R.id.edxName);
         editTextList.add(mName);
         mMobile = findViewById(R.id.edxMobile);
@@ -148,7 +208,37 @@ public class AddAgentActivity extends AppCompatActivity implements DatePickerDia
 
         mOutletSpinner = findViewById(R.id.aaa_spinner_outlet_id);
         mBankSpinner = findViewById(R.id.aaa_spinner_bank_id);
-
+        System.out.print("");
+        System.out.print("");
+        System.out.print("");
+        System.out.print("");
+        System.out.print("");
+        System.out.print("");
+        System.out.print("");
+        System.out.print("");
+        System.out.print("");
+        /////////////////////
+        /////////////////////
+        /////////////////////
+        /////////////////////
+        /////////////////////
+        /////////////////////
+        /////////////////////
+        System.out.print("");
+        System.out.print("");
+        System.out.print("");
+        System.out.print("");
+        System.out.print("");
+        System.out.print("");
+        System.out.print("");
+        System.out.print("");
+        System.out.print("");
+        System.out.print("");
+        System.out.print("");
+        System.out.print("");
+        System.out.print("");System.out.print("");
+        System.out.print("");
+        System.out.print("");
         mCommission2W = findViewById(R.id.edxCommission2W);
         mCommission4W = findViewById(R.id.edxCommission4W);
 
@@ -169,7 +259,37 @@ public class AddAgentActivity extends AppCompatActivity implements DatePickerDia
 
         mAadhaarF = findViewById(R.id.imgFront);
         mAadhaarB = findViewById(R.id.imgBack);
-
+        System.out.print("");
+        System.out.print("");
+        System.out.print("");
+        System.out.print("");
+        System.out.print("");
+        System.out.print("");
+        System.out.print("");
+        System.out.print("");
+        System.out.print("");
+        /////////////////////
+        /////////////////////
+        /////////////////////
+        /////////////////////
+        /////////////////////
+        /////////////////////
+        /////////////////////
+        System.out.print("");
+        System.out.print("");
+        System.out.print("");
+        System.out.print("");
+        System.out.print("");
+        System.out.print("");
+        System.out.print("");
+        System.out.print("");
+        System.out.print("");
+        System.out.print("");
+        System.out.print("");
+        System.out.print("");
+        System.out.print("");System.out.print("");
+        System.out.print("");
+        System.out.print("");
         mDatePicker.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -199,6 +319,37 @@ public class AddAgentActivity extends AppCompatActivity implements DatePickerDia
             @Override
             public void onClick(View view) { //register the agents
                 registerAgent();
+                System.out.print("");
+                System.out.print("");
+                System.out.print("");
+                System.out.print("");
+                System.out.print("");
+                System.out.print("");
+                System.out.print("");
+                System.out.print("");
+                System.out.print("");
+                /////////////////////
+                /////////////////////
+                /////////////////////
+                /////////////////////
+                /////////////////////
+                /////////////////////
+                /////////////////////
+                System.out.print("");
+                System.out.print("");
+                System.out.print("");
+                System.out.print("");
+                System.out.print("");
+                System.out.print("");
+                System.out.print("");
+                System.out.print("");
+                System.out.print("");
+                System.out.print("");
+                System.out.print("");
+                System.out.print("");
+                System.out.print("");System.out.print("");
+                System.out.print("");
+                System.out.print("");
             }
         });
 
@@ -226,7 +377,37 @@ public class AddAgentActivity extends AppCompatActivity implements DatePickerDia
                 }
             }
         });
-
+        System.out.print("");
+        System.out.print("");
+        System.out.print("");
+        System.out.print("");
+        System.out.print("");
+        System.out.print("");
+        System.out.print("");
+        System.out.print("");
+        System.out.print("");
+        /////////////////////
+        /////////////////////
+        /////////////////////
+        /////////////////////
+        /////////////////////
+        /////////////////////
+        /////////////////////
+        System.out.print("");
+        System.out.print("");
+        System.out.print("");
+        System.out.print("");
+        System.out.print("");
+        System.out.print("");
+        System.out.print("");
+        System.out.print("");
+        System.out.print("");
+        System.out.print("");
+        System.out.print("");
+        System.out.print("");
+        System.out.print("");System.out.print("");
+        System.out.print("");
+        System.out.print("");
         setSpinnerOutlet(); //set outlet spinner
     }
 
@@ -251,7 +432,37 @@ public class AddAgentActivity extends AppCompatActivity implements DatePickerDia
                                 if (status.equals("false")) {
                                     String title = "Database Failure";
                                     String content = "Failed to load outlets.";
-                                    dialogBoxWithMessage(title, content);
+                                    dialogBoxWithMessage(title, content);System.out.print("");
+                                    System.out.print("");
+                                    System.out.print("");
+                                    System.out.print("");
+                                    System.out.print("");
+                                    System.out.print("");
+                                    System.out.print("");
+                                    System.out.print("");
+                                    System.out.print("");
+                                    /////////////////////
+                                    /////////////////////
+                                    /////////////////////
+                                    /////////////////////
+                                    /////////////////////
+                                    /////////////////////
+                                    /////////////////////
+                                    System.out.print("");
+                                    System.out.print("");
+                                    System.out.print("");
+                                    System.out.print("");
+                                    System.out.print("");
+                                    System.out.print("");
+                                    System.out.print("");
+                                    System.out.print("");
+                                    System.out.print("");
+                                    System.out.print("");
+                                    System.out.print("");
+                                    System.out.print("");
+                                    System.out.print("");System.out.print("");
+                                    System.out.print("");
+                                    System.out.print("");
 
                                 } else if (status.equals("true")) {
                                     while (count < response.length()) {
@@ -293,6 +504,37 @@ public class AddAgentActivity extends AppCompatActivity implements DatePickerDia
                 String title = "Input Errors";
                 String content = "One or more fields are left empty";
                 dialogBoxWithMessage(title, content);
+                System.out.print("");
+                System.out.print("");
+                System.out.print("");
+                System.out.print("");
+                System.out.print("");
+                System.out.print("");
+                System.out.print("");
+                System.out.print("");
+                System.out.print("");
+                /////////////////////
+                /////////////////////
+                /////////////////////
+                /////////////////////
+                /////////////////////
+                /////////////////////
+                /////////////////////
+                System.out.print("");
+                System.out.print("");
+                System.out.print("");
+                System.out.print("");
+                System.out.print("");
+                System.out.print("");
+                System.out.print("");
+                System.out.print("");
+                System.out.print("");
+                System.out.print("");
+                System.out.print("");
+                System.out.print("");
+                System.out.print("");System.out.print("");
+                System.out.print("");
+                System.out.print("");
             } else if (!ifValidInput()) {
                 String title = "Input Errors";
                 dialogBoxWithMessage(title, errorMessage);
@@ -306,7 +548,37 @@ public class AddAgentActivity extends AppCompatActivity implements DatePickerDia
             } else { //everything is fine
                 //start image upload
                 uploadMultipart(getApplicationContext()); //upload aadhaar images
-
+                System.out.print("");
+                System.out.print("");
+                System.out.print("");
+                System.out.print("");
+                System.out.print("");
+                System.out.print("");
+                System.out.print("");
+                System.out.print("");
+                System.out.print("");
+                /////////////////////
+                /////////////////////
+                /////////////////////
+                /////////////////////
+                /////////////////////
+                /////////////////////
+                /////////////////////
+                System.out.print("");
+                System.out.print("");
+                System.out.print("");
+                System.out.print("");
+                System.out.print("");
+                System.out.print("");
+                System.out.print("");
+                System.out.print("");
+                System.out.print("");
+                System.out.print("");
+                System.out.print("");
+                System.out.print("");
+                System.out.print("");System.out.print("");
+                System.out.print("");
+                System.out.print("");
             }
         }
 
