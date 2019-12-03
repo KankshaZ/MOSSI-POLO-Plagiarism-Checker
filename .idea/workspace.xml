@@ -3,10 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="93a82fc7-0fe4-4353-b7df-5187d2b8e538" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/bar.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/bar.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/merge_json.py" beforeDir="false" afterPath="$PROJECT_DIR$/public/merge_json.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -69,7 +65,9 @@
       <option name="presentableId" value="Default" />
       <updated>1575073207981</updated>
       <workItem from="1575073218409" duration="12278000" />
-      <workItem from="1575089708032" duration="2068000" />
+      <workItem from="1575089708032" duration="2290000" />
+      <workItem from="1575308044916" duration="498000" />
+      <workItem from="1575317416901" duration="322000" />
     </task>
     <servers />
   </component>
